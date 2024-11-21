@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AMALKRISHNA N B</h1>
+            <p>Web Developer | Designer | Creator</p>
+        </div>
+    </header>
+    <nav class="navbar fixed-top">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#experience">Experience</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Iam Amalkrishna.im from thrissur,kerala,im a MBA graduate.I have one year experience in sales.now im pursuing mern stack in Brototype., My aim is to become a developer and im passionate in web development and coding.</p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>I have one year experience in dalmia cement.my role was sales executive.my territory was in thrissur district.Handled dealers and sub dealers</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p >completed the clone of home page of swiggy.</p>
+                <p>View: <a href="https://amalkrishnan123.github.io/swiggy/">Swiggy</a></p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>completed the clone of home page of Google.</p>
+                <p>View: <a href="https://amalkrishnan123.github.io/google/">Google</a></p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+               
+            </ul>
+            <section id="resume">
+                <h2>Resume</h2>
+                <h3 style="text-decoration: underline;">Education</h3>
+                <table border="1px" >
+                    <thead>
+                        <tr>
+                       <th>Qualification</th>
+                       <th>Year</th>
+                       <th>School/college</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <td>BE</td>
+                                <td>2016-2020</td>
+                                <td>Excel college</td>
+                            </tr>
+                            <tr>
+                                <td>MBA</td>
+                                <td>2020-2022</td>
+                                <td>Lead college</td>
+                            </tr>
+                        </tbody>
+                </table>
+                <br>
+                <h3  style="text-decoration: underline;">DOB</h3>
+                <p>28-04-1998</p>
+                 </section>
+                 <br>
+                 <h3 style="text-decoration: underline;">Email me</h3>
+                 <form action="https://formspree.io/f/xyzyjldr" method="post" id="contact-form" onsubmit="return validateForm()">
+                    <div class="row gy-4">
+                      
+                      <div class="col-md-6">
+                        <input type="text"  id="name" class="form-control" name="name" placeholder="Your Name"  minlength="3" maxlength="20">
+                        <span id="nameError" class="error"></span>
+                      </div>
+                  
+                      <div class="col-md-6">
+                        <input type="email" id="email" class="form-control" name="email" placeholder="Your Email" >
+                        <span id="emailError" class="error"></span>
+                      </div>
+                  
+                      <div class="col-md-12">
+                        <input type="text" id="subject" class="form-control" name="subject" placeholder="Subject" >
+                        <span id="subjectError" class="error"></span>
+                      </div>
+                  
+                      <div class="col-md-12">
+                        <textarea class="form-control" id="message" name="message" rows="6" placeholder="Message" ></textarea>
+                        <span id="messageError" class="error"></span>
+                      </div>
+                  
+                      <div class="col-md-12 text-center">
+                        <input class="btn btn-light" type="submit" value="Send message">
+                      </div>
+                  
+                    </div>
+                  </form>
+    
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:amalbaburaj947@gmail.com">amalbaburaj947@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/amalkrishnan123" target="_blank">github.com/amalkrishnan123</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/Amalkrishna N B" target="_blank">linkedin.com/in/Amalkrishna N B</a></p>
+            <p>Mobile: <a href="call to:8129407280">8129407280</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Amalkrishna. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
